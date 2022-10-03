@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .test{
+            background: rgb(9, 243, 231);
+            border: 1px solid black; 
+            margin-bottom: 50px;
+            padding: 20px;
+        }
+        #boxs{
+            width: 70%;
+            height: 200px;
+            padding: 10px;
+            border: 1px solid black;
+            overflow: auto;
+            
+        }
+        .red{
+            color: red;
+        }
+        .class-meth{
+            border: 1px solid black;
+            margin: 20px;
+            padding: 10px;
+            background: aqua;
+        }
+        .class-met{
+            border: 1px solid black;
+            margin: 20px;
+            padding: 10px;
+            position: relative;
+        }
+        .first{
+            color: red;
+            background-color: tan;
+        }
+        .scound{
+            background-color: pink;
+        }
+        .width{
+            border: 10px solid black;
+            padding: 30px;
+            background: lawngreen;
+            margin: 10px;
+        }
+        .scroll{
+            height: 20px;
+            width: 70px;
+            position:fixed;
+            background: lawngreen;
+            margin-left: 500px;
+            border: 1px solid black;
+            padding: 10px;
+            bottom: 30px;
+            
+            
+        }
+        #animation{
+            color: rgb(0, 0, 0);
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
+            position: relative;
+        }
+    </style>
+   
+</head>
+<body>
+    <h1>jquery mouse event</h1>
+    <div class="test" id="box">
+        <h2>text box</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae totam incidunt quibusdam porro, voluptatum ipsum rem ipsa animi modi voluptas?</p>
+
+    </div>
+    <form action=""id='sform'>
+        <label for="">name :
+            <input type="text" id="sname">
+
+        </label>
+        <br>
+        <label for="class">
+            class : 
+            <input type="text" id="sclass">
+
+        </label>
+        <br>
+        <label for="name">
+            country :
+            <select name="country" id="scontry">
+                <option value="bangladesh">bangladesh</option>
+                <option value="india">india</option>
+                <option value="usa">usa</option>
+                <option value="uk">uk</option>
+            </select>
+
+        </label>
+        <br>
+        <input type="submit" id="submit" value="save">
+        <div class="test" id="test" style="border: 1px solid red ; margin-top:20px;"></div>
+        
+
+    </form>
+    <div class="box" id="boxs">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+             elit. Doloremque aut recusandae autem minima
+              fugiat neque atque voluptate, vel voluptatibus
+               ipsa vero quos ut cum accusantium dolore ad 
+               dolorem necessitatibus fugit nam quasi eius 
+               provident. Consectetur hic repudiandae amet 
+               quam reprehenderit eveniet, temporibus maxime 
+               dolorem ea, voluptas perferendis facere. Est, 
+               possimus doloribus. Odit ab debitis deserunt 
+               quo? Eos ut ex optio maxime debitis ea labore
+                quidem fugiat deserunt sequi, sit numquam 
+                natus. Laboriosam provident, ratione dolorem
+                rerum amet ut atque excepturi itaque voluptat
+                um incidunt iusto explicabo corporis est reic
+                iendis obcaecati voluptate dolore! Recusandae 
+                aliquam porro perferendis, veritatis quam accu
+                samus error veniam excepturi reprehenderit, co
+                nsequuntur ad vel provident fuga similique con
+                sectetur beatae cumque. Fugiat minus veniam du
+                cimus nulla beatae alias? Laudantium optio ape
+                riam accusantium quaerat nihil consectetur vol
+                uptatum fuga obcaecati. Necessitatibus consequ
+                atur explicabo fugit consectetur ea provident 
+                itaque eligendi illum quam a, aspernatur eum m
+                agni nemo distinctio eos, tempora suscipit exc
+                epturi nulla molestias ipsa neque voluptates q
+                uia. Praesentium enim autem cupiditate non, co
+               
+                       
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Officiis, voluptatem tempora alias dolore aperiam nisi 
+        autem illo esse commodi delectus perspiciatis blanditiis
+         architecto voluptas laudantium veniam odit. Adipisci 
+         veniam, amet reiciendis cum consequuntur asperiores 
+         officia ratione sapiente obcaecati debitis excepturi, 
+         corporis aperiam hic neque quaerat iure molestias 
+         voluptas maxime ad harum! Incidunt, neque esse vero
+          numquam debitis hic voluptatibus reiciendis magni 
+          recusandae dicta facere tempora quos odio libero 
+          dignissimos ut earum? Saepe soluta expedita eum 
+          dolorem obcaecati a rem libero, beatae eveniet quod
+           praesentium fuga incidunt! Vitae natus aut sapiente 
+           fugiat voluptas velit labore asperiores ea vero,
+            magnam quibusdam unde eos rem facere inventore 
+            voluptatibus suscipit soluta alias beatae sequi
+             dicta? Nisi odio aliquam eius dolor aliquid, 
+             at itaque? Libero explicabo, deserunt voluptatem
+              voluptatum iusto sunt excepturi quo, ipsum, </p>
+   
+
+    <div id="get" class="test abc">
+        <h2>test box</h2>
+        <p>Lorem ipsum dolor, <span>sit amet consectetur 
+            adipisicing elit.</span> Odio, minus! Expedita,
+             aliquam ipsum unde placeat similique, repellat 
+             error odit voluptatibus quisquam amet soluta,
+              aspernatur quasi. Earum, cum. Numquam nisi
+               similique deserunt at hic laudantium aliquam 
+               vitae saepe necessitatibus nobis ratione et, 
+               quidem nulla quo architecto facere qui sit,
+                aspernatur quis!</p>
+    </div>
+    <div id="set" class="test abc">
+        <h2>test box</h2>
+        <p>Lorem ipsum dolor, Odio, minus! Expedita,
+             aliquam ipsum unde placeat similique, repellat 
+             error odit voluptatibus quisquam amet soluta,
+              aspernatur quasi. Earum, cum. Numquam nisi
+               similique deserunt at hic laudantium aliquam 
+               vitae saepe necessitatibus nobis ratione et, 
+               quidem nulla quo architecto facere qui sit,
+                aspernatur quis!</p>
+    </div>
+    <button id="click_btn">set value</button><br><br>
+
+    <form action="" id="tform">
+        <label for="">name</label>
+        <input type="text" id="tname"> <br><br>
+        <label for="">class</label>
+        <input type="text" id="tclass"> <br><br>
+        <input type="submit" id="save" value="save">
+    </form>
+
+
+    <div class="class-meth" id="class-meth">
+        <h1>test box</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+
+    </div>
+    <button id="add">add class</button>
+    <button id="remove">remove class</button>
+    <button id="toggle">toggle class</button>
+
+    <div class="class-meth" id="addcss">
+        <h1>test box</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+
+    </div>
+    <button id="add-style">add style</button>
+    <br><br><br><br><br><br>
+
+    <div class="class-meth" id="append-meth">
+        <h1>test box</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+
+    </div>
+    <button id="append">Append</button>
+    <button id="prepend">Prepend</button>
+
+    <div class="class-meth" id="befor-div">
+        <h1>test box</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+        
+    </div>
+        <br><br><br>
+        <button id="after">After</button>
+        <button id="befor">befor</button>
+        <br><br><br>
+
+        <div class="class-meth" id="remove-div">
+            <h1>test box</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+            
+        </div>
+            <br><br><br>
+            <button id="empty">empty</button>
+            <button id="remove-btn">remove</button>
+            <br><br><br>
+            <div class="class-meth" id="append-to">
+                <h1>test box</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                
+            </div>
+                <br><br><br>
+            <button id="append-to-btn">append-to</button>
+            <button id="prepend-to">prepend-to</button>
+            <br><br><br>
+            <div class="class-meth" id="clone">
+                <h1>test box</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                
+            </div>
+                <br>
+                <div class="class-meth" id="clone-item">
+                  <h2>this is another div</h2>  
+                </div>
+                <br><br>
+            <button id="clone-btn">clone</button>
+            <br><br><br>
+            <div class="class-meth" id="replace">
+                
+                <p class="first">Lorem ipsum dolor sit amet <span>consectetur adipisicing</span> elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p><br><br>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p><br><br>
+                <p class="scound">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                
+            </div>
+            <br>
+            <button id="replaceBtn">replace</button>
+            <br><br>
+            <div class="class-meth" id="wrap-meth">
+                <h1>test box</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                
+            </div> <br><br>
+            <button id="wrap">wrap</button>
+            <button id="unwrap-meth">unwrap</button>
+            <br><br>
+            <div class="class-meth" id="wrapall-meth">
+                <h1>test box</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                
+            </div> <br><br>
+            <button id="wrapall">wrap all</button>
+            <button id="wrapinner">wrap inner</button>
+
+            <br><br>
+            <div class="width" id="width-meth">
+                <h1>test box</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                
+            </div> <br><br>
+            <button id="width">width</button>
+            <button id="height">height</button>
+
+            <br><br>
+            <div class="class-met" id="position-off">
+                <h1>test box</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                
+            </div> <br><br>
+            <button id="position">position</button>
+            <button id="offset">offset</button>
+
+
+
+
+            <br><br>
+            <br>
+            <button id="scrolltop">scroll top</button>
+            <button id="crollleft">scroll left</button>
+            <div class="scroll" id="scroll"></div>
+            <br><br>
+            <div class="class-meth" id="hasclas">
+                <h1>test box</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                
+            </div> <br><br>
+            <button id="hasclass-btn">hasclass</button>
+            <br><br>
+            <div class="class-meth" id="hide-show">
+                <h1>test box</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                
+            </div> <br><br>
+            <button id="hide">hide</button>
+            <button id="show">show</button>
+            <button id="toggleh">toggle</button>
+            <br><br>
+            <div class="class-meth" id="fade-all">
+                <h1>test box</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                
+            </div> <br><br>
+            <button id="fade-out">fade-out</button>
+            <button id="fade-in">fade-in</button>
+            <button id="fade-toggle">fade-toggle</button>
+            <button id="fade-to">fade-to</button>
+
+
+            <br><br>
+            <div class="class-meth" id="slide">
+                <h1>test box</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                
+            </div> <br><br>
+            <button id="slide-up">fade-out</button>
+            <button id="slide-downe">fade-in</button>
+            <button id="slide-toggle">fade-toggle</button>
+            
+            
+
+            <br><br>
+            <div id="animation">
+                <h1>test box</h1>
+                
+                
+            </div> <br><br>
+            <button id="animate">Animate</button>
+            <button id="animate-stop">Stop</button>
+
+
+            <br><br>
+            <div class="class-meth" id="chaining">
+                <h1>test box</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad! Rem praesentium exercitationem eaque suscipit rerum, corrupti, iusto dolorum necessitatibus distinctio aut, ipsam dolore possimus sequi fugiat alias ut reprehenderit?</p>
+                
+            </div> <br><br>
+            <button id="chainaing-btn">animation</button>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $('#box').click(function(){
+            //      $('#box').css("background-color","green");
+            //     // var a = $('#box').html();
+            //     // console.log(a);
+
+            // });
+            // $('#box').dblclick(function(){
+            //      $('#box').css("background-color","red");
+            //     // var a = $('#box').html();
+            //     // console.log(a);
+
+            // });
+            // $('#box').contextmenu(function(){
+            //     $('#box').css('background','blue');
+            // });
+            // $('#box').mouseenter(function(){
+            //     $('#box').css('background','tan');
+            // });
+            // $('#box').mouseleave(function(){
+            //     $('#box').css('background','gray');
+            // });
+            // // click function end
+            // $('body').keypress(function(){
+            //     $(this).css('background','red')
+            // });
+            // $('body').keyup(function(){
+            //     $(this).css('background','green')
+            // });
+            // key press funtion------------------------
+                
+        });
+            
+       
+    </script>
+</body>
+</html>

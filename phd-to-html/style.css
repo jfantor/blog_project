@@ -1,0 +1,137 @@
+.digital-classroom-con {
+    background: #fafbff;
+  }
+  .heading-text {
+    text-transform: capitalize;
+    font-weight: 600;
+    border-left: 4px solid #f00;
+    padding: 10px 10px 11px 12px;
+  }
+  .heading-text span {
+    color: #ff0000;
+  }
+  .heading-pera {
+    font-size: 20px;
+    font-family: roboto;
+  }
+  .sign-up {
+    height: 50px;
+    width: 198px;
+    font-size: 10px;
+    background: #ff0000;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .sign-up:hover {
+    background: #fff;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+  }
+  .scroll {
+    font-size: 20px;
+    font-family: roboto;
+  }
+  .img-aria img {
+    height: 459px;
+  }
+  #digital-classroom {
+    margin-bottom: 50px;
+    padding-top: 30px;
+  }
+  .learn-heading-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 71px;
+  }
+  .learn-heading-text span {
+    color: #ff0000;
+  }
+  .learn-div {
+    background: #edf5f8;
+  }
+  img {
+    background: transparent;
+  }
+  .learn-div i {
+    font-size: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .learn-heading {
+    text-transform: capitalize;
+    font-weight: 500;
+    padding-left: 13px;
+  }
+  .learn-pera {
+    font-size: 18px;
+    font-family: robo;
+    padding: 13px;
+    padding-bottom: 30px;
+  }
+  .learn-div:hover {
+    background: #fff4d6;
+  }
+  .in-bangla-img img {
+    height: 500px;
+  }
+  #in-bangladesh {
+    margin-top: 50px;
+    background: #dfdfdf38;
+  }
+  .in-banla-heading {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .in-bangla-pera {
+    font-size: 20px;
+    font-family: roboto;
+    padding-right: 58px;
+    margin-bottom: 32px;
+  }
+  #digital-clas {
+    margin-top: 50px;
+  }
+  .digital-class-heading {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .digital-class-img img {
+    height: 500px;
+  }
+  .digital-bangla-img img {
+    height: 500px;
+  }
+  #digital-bangla {
+    background: #e6e3e336;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .footer {
+    background: #000000;
+  }
+  .footer-heading {
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  .footer-heading span {
+    color: #ff0909;
+    text-transform: uppercase;
+  }
+  .footer-pera {
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .footer-pera i {
+    padding-right: 5px;
+  }
+  .footer-pera span {
+    color: #ff0909;
+    padding-right: 5px;
+  }

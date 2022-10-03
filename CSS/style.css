@@ -1,0 +1,80 @@
+.header-ul li {
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+  }
+  .header-ul li a {
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  .login a {
+    padding: 12px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+  }
+  .login {
+    margin-top: 10px;
+  }
+  .header {
+    background: #0d6079c9;
+  }
+.blog-img img {
+    width: 261px;
+  }
+  .pagination.admin-pagination {
+    margin-top: 205px;
+  }
+  
+  .titel-heading {
+    font-size: 25px;
+  }
+  .penel-ul li {
+    list-style: none;
+    display: inline-block;
+  }
+  .penel-ul li a {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-right: 30px;
+    text-decoration: none;
+  }
+  .penel-ul {
+    margin-top: 20px;
+  }
+  .control-penel {
+    background: #c1c1c163;
+  }
+  .content-table thead tr th {
+    width: 1%;
+    border: 1px solid black;
+    height: 40px;
+    padding: 11px;
+  }
+  .content-table {
+    border: 1px solid black;
+  }
+  .content-table tbody tr td {
+    border: 1px solid black;
+    height: 50px;
+    padding: 11px;
+  }
+  .category-table {
+    width: 90%;
+    margin-left: 87px;
+    border: 1px solid black;
+    padding: 39px;
+  }
+  .c-t-head tr th {
+    padding-left: 32px;
+    border: 1px solid black;
+    height: 50px;
+  }
+  .c-t-body tr td {
+    padding-left: 30px;
+    border: 1px solid black;
+    height: 50px;
+  }
